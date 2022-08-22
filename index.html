@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="searchForm" class="searchForm">
+        <input type="text" name="searchInput" id="" placeholder="Write movie name">
+        <span class="del hide">x</span>
+        <input type="button" name="searchButton" value="search">
+    </form>
+    <div class="modal hide">
+        <div class="modal_window">
+            <div class="info">
+                <div><img alt="" class="image"></div>
+                <div class="movie-info">
+                    <p class="name"><span class="title"></span></p>
+                    <span class="rating"></span>
+                    <p class="plot"></p>
+                    <p><span class="bold_text">Written by: </span><span class="written"></span></p>
+                    <p><span class="bold_text">Directed by: </span> <span class="directed"></span></p>
+                    <p><span class="bold_text">Starring: </span> <span class="starring"></span></p>
+                    <p><span class="bold_text">BoxOffice: </span> <span class="boxOffice"></span></p>
+                    <p><span class="bold_text">Awards: </span> <span class="awards"></span></p>
+                    <p><span class="bold_text">Ratings: </span> <br><span class="ratings"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
